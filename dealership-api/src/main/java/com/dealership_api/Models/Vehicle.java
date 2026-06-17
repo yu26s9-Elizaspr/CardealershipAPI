@@ -1,4 +1,4 @@
-package Models;
+package com.dealership_api.Models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

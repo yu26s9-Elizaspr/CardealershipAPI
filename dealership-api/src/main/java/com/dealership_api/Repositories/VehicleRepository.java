@@ -1,5 +1,5 @@
-package Repositories;
-import Models.Vehicle;
+package com.dealership_api.Repositories;
+import com.dealership_api.Models.Vehicle;
 
 
 import org.springframework.data.jpa.repository.JpaRepository;
