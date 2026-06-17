@@ -1,7 +1,14 @@
-package com.dealership_api;
+package Models;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Vehicle {
+
+    @Id
    private int vin;
+
    private int year;
    private String make;
    private String model;
@@ -9,6 +16,10 @@ public class Vehicle {
    private String color;
    private int odometer;
    private double price;
+
+   public Vehicle() {
+
+   }
 
 
    public Vehicle (int vin, int year, String make, String model, String vehicleType, String color, int odometer, double price) {
